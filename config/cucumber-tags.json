@@ -1,0 +1,14 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "forge:ingots/iron": "minecraft:iron_ingot",
+  "forge:ingots/copper": "minecraft:copper_ingot",
+  "forge:ingots/tin": "thermal:tin_ingot",
+  "forge:ingots/lead": "thermal:lead_ingot",
+  "forge:ingots/gold": "minecraft:gold_ingot",
+  "forge:ingots/silver": "thermal:silver_ingot",
+  "forge:ingots/nickel": "thermal:nickel_ingot",
+  "forge:ingots/aluminum": "null",
+  "forge:ingots/osmium": "mekanism:ingot_osmium",
+  "forge:ingots/uranium": "mekanism:ingot_uranium",
+  "forge:ingots/zinc": "create:zinc_ingot"
+}
