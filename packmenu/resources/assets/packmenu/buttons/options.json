@@ -1,0 +1,10 @@
+{
+	"x": 0,
+	"y": 60,
+	"width": 75,
+	"height": 20,
+	"anchor": "TOP_LEFT",
+	"langKey": "menu.options",
+	"action": "OPEN_GUI",
+	"data": "OPTIONS"
+}
