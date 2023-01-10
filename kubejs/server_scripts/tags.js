@@ -1,9 +1,9 @@
 ServerEvents.tags('item', event => {
     event.add('factory:hammer', [
-        'kubejs:wooden_hammer',
-        'kubejs:stone_hammer',
-        'kubejs:iron_hammer',
-        'kubejs:diamond_hammer',
-        'kubejs:netherite_hammer'
+        'factory:wooden_hammer',
+        'factory:stone_hammer',
+        'factory:iron_hammer',
+        'factory:diamond_hammer',
+        'factory:netherite_hammer'
     ])
 })
