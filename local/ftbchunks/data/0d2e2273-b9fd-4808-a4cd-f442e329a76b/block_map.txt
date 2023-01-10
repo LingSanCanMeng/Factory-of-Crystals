@@ -1,0 +1,12 @@
+#52B53D minecraft:air
+#490837 minecraft:beacon
+#73CA69 create:creative_motor
+#5E5E58 create:deployer
+#80497A minecraft:dirt
+#2E2249 minecraft:iron_block
+#BE4F03 create_mechanical_extruder:mechanical_extruder
+#AD9EB5 minecraft:oak_leaves
+#BBA6D1 minecraft:oak_log
+#E3886A minecraft:oak_planks
+#4A5E4E minecraft:obsidian
+#2E93E7 minecraft:sculk_catalyst

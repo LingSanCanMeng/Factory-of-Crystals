@@ -1,0 +1,139 @@
+{
+	id: "5C2078BC5D08E3DF"
+	group: ""
+	order_index: 1
+	filename: "0_2"
+	title: "0、一些小设置"
+	icon: "minecraft:command_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			can_repeat: true
+			id: "32F6F1F7DEE473AF"
+			tasks: [{
+				id: "6B1FF6B62857D15B"
+				type: "checkmark"
+				title: "永不下雨"
+			}]
+			rewards: [
+				{
+					id: "0BEEB6857A3197C3"
+					type: "command"
+					auto: "enabled"
+					command: "/gamerule doWeatherCycle false"
+					player_command: false
+				}
+				{
+					id: "691D7BB7182BC892"
+					type: "command"
+					auto: "enabled"
+					command: "/weather clear"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			can_repeat: true
+			id: "37D01E1AD22284F3"
+			tasks: [{
+				id: "6F52B7FD30CB216F"
+				type: "checkmark"
+				title: "不要永不下雨"
+			}]
+			rewards: [{
+				id: "7B149BBC92FDB3F5"
+				type: "command"
+				auto: "enabled"
+				command: "/gamerule doWeatherCycle true"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			can_repeat: true
+			id: "250278795821F8F5"
+			tasks: [{
+				id: "471372F262DBAFC1"
+				type: "checkmark"
+				title: "永远白天"
+			}]
+			rewards: [
+				{
+					id: "68890B9A9FACF65B"
+					type: "command"
+					auto: "enabled"
+					command: "/gamerule doDaylightCycle false"
+					player_command: false
+				}
+				{
+					id: "74062D3407A69C56"
+					type: "command"
+					auto: "enabled"
+					command: "/time set noon"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			can_repeat: true
+			id: "4F558EF007414EAC"
+			tasks: [{
+				id: "12E0436A9FD5E368"
+				type: "checkmark"
+				title: "不要永远白天"
+			}]
+			rewards: [{
+				id: "57AD29976F890739"
+				type: "command"
+				auto: "enabled"
+				command: "/gamerule doDaylightCycle true"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			can_repeat: true
+			id: "58A22403AD78A4CA"
+			tasks: [{
+				id: "7DF9027F201DE67B"
+				type: "checkmark"
+				title: "死亡不掉落"
+			}]
+			rewards: [{
+				id: "46003369EEC26291"
+				type: "command"
+				auto: "enabled"
+				command: "/gamerule keepInventory true"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			can_repeat: true
+			id: "70BC7491DC789C45"
+			tasks: [{
+				id: "757629F2F411E271"
+				type: "checkmark"
+				title: "不要死亡不掉落"
+			}]
+			rewards: [{
+				id: "406D425E40FDF166"
+				type: "command"
+				auto: "enabled"
+				command: "/gamerule keepInventory false"
+				player_command: false
+			}]
+		}
+	]
+	quest_links: [ ]
+}

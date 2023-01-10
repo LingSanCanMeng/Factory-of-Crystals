@@ -1,0 +1,3 @@
+#52B53D minecraft:air
+#AD9EB5 minecraft:oak_leaves
+#BBA6D1 minecraft:oak_log

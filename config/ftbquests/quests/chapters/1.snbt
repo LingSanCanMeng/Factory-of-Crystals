@@ -1,0 +1,12 @@
+{
+	id: "6653D53B61B70F0F"
+	group: ""
+	order_index: 2
+	filename: "1"
+	title: "1、木器时代"
+	icon: "minecraft:oak_log"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,0 +1,58 @@
+{
+	id: "174E45FC00C6CABA"
+	group: ""
+	order_index: 0
+	filename: "0"
+	title: "0、一些小玩意"
+	icon: "create:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "69718DB08674B083"
+			tasks: [{
+				id: "7848B34CE52FFD49"
+				type: "checkmark"
+				title: "扳手"
+			}]
+			rewards: [{
+				id: "50963D8AB4C50870"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "149A252954080CF8"
+			tasks: [{
+				id: "131FFE700AAE78BA"
+				type: "checkmark"
+				title: "新月锤"
+			}]
+			rewards: [{
+				id: "36E8E166B0C0D373"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "281FC79BEB0D63E8"
+			tasks: [{
+				id: "491B109E9F10703E"
+				type: "checkmark"
+				title: "配置器"
+			}]
+			rewards: [{
+				id: "102FE91691CE66C4"
+				type: "item"
+				item: "mekanism:configurator"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
