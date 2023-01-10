@@ -46,7 +46,7 @@
 	#Whether the player should take damage when inside powder snow
 	freeze_damage = true
 	#Whether the player should keep items and experience in their inventory after death
-	keep_inventory = false
+	keep_inventory = true
 	#Whether to log admin commands to server log
 	log_admin_commands = true
 	#The maximum length of a chain of commands that can be executed during one tick. Applies to command blocks and functions
