@@ -199,4 +199,58 @@ ServerEvents.recipes(e => {
             }
         ]
     })
+
+    //andesite alloy
+    e.remove({output: 'create:andesite_alloy'})
+    e.recipes.minecraft.crafting_shaped('create:andesite_alloy_block',[
+        'aa',
+        'aa'
+    ], {
+        a: 'create:andesite_alloy'
+    })
+    e.recipes.minecraft.crafting_shaped('create:andesite_alloy',[
+        'aa',
+        'aa'
+    ], {
+        a: 'create:andesite_alloy_nugget'
+    })
+    e.recipes.minecraft.crafting_shapeless('4x create:andesite_alloy', ['create:andesite_alloy_block'])
+    e.recipes.minecraft.crafting_shapeless('4x create:andesite_alloy_nugget', ['create:andesite_alloy'])
+    e.recipes.minecraft.crafting_shaped('create:andesite_alloy', [
+        'aba',
+        'bab',
+        'aba'
+    ], {
+        a: 'andesite',
+        b: '#forge:ingots/iron'
+    })
+
+    //clay
+    e.custom({
+        type: 'lychee:block_interacting',
+        item_in: {
+            item: 'minecraft:water_bucket'
+        },
+        block_in: 'factory:dust',
+        post: [
+            {
+                type: 'place',
+                block: 'minecraft:clay'
+            },
+            {
+                type: 'drop_item',
+                item: 'minecraft:bucket'
+            }
+        ]
+    })
+
+    //sail frame
+    e.recipes.minecraft.crafting_shaped('16x create:sail_frame', [
+        'aaa',
+        'aba',
+        'aaa'
+    ],{
+        a: 'stick',
+        b: 'create:andesite_alloy'
+    })
 })

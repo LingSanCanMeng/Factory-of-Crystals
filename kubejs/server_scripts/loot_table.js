@@ -56,4 +56,6 @@ ServerEvents.blockLootTables(event => {
     factory_hammer(`minecraft:andesite`, `minecraft:gravel`)
     factory_hammer(`minecraft:granite`, `minecraft:gravel`)
     factory_hammer(`minecraft:diorite`, `minecraft:gravel`)
+    factory_hammer('minecraft:gravel', 'minecraft:sand')
+    factory_hammer('minecraft:sand', 'factory:dust')
 })

@@ -1,4 +1,6 @@
 StartupEvents.registry(`item`, e => {
+    e.create('factory:infinity').displayName('无限').maxStackSize(1).glow(true)
+
     e.create(`factory:shard_of_shards`).displayName(`万物碎片`).texture(`factory:item/shard_of_shards`)
 
     //hammer
@@ -25,4 +27,9 @@ StartupEvents.registry(`item`, e => {
     //blaze_brass && chorus_chrome
     e.create('create:blaze_brass').displayName('烈焰合金')
     e.create('create:chorus_chrome').displayName('紫颂合金')
+
+    //andesite alloy
+    e.create('create:andesite_alloy_plate').displayName('安山合金板')
+    e.create('create:andesite_alloy_nugget').displayName('安山合金粒')
+    e.create('create:andesite_alloy_gear').displayName('安山合金齿轮')
 })

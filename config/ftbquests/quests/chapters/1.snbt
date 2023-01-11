@@ -325,6 +325,18 @@
 				item: "minecraft:lava_bucket"
 			}]
 		}
+		{
+			x: 10.5d
+			y: 3.0d
+			description: ["水桶右键尘土变黏土块"]
+			dependencies: ["49E7959D91EC1869"]
+			id: "71841F82A6D5AA39"
+			tasks: [{
+				id: "334E4B2F193C42C1"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "扳手，工程师护目镜"
 			x: 0.0d
 			y: 0.0d
 			id: "69718DB08674B083"
@@ -17,11 +18,18 @@
 				type: "checkmark"
 				title: "扳手"
 			}]
-			rewards: [{
-				id: "50963D8AB4C50870"
-				type: "item"
-				item: "create:wrench"
-			}]
+			rewards: [
+				{
+					id: "50963D8AB4C50870"
+					type: "item"
+					item: "create:wrench"
+				}
+				{
+					id: "013170A06FEC3C83"
+					type: "item"
+					item: "create:goggles"
+				}
+			]
 		}
 		{
 			x: 1.5d

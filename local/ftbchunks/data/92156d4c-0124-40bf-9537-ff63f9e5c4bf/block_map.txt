@@ -5,11 +5,13 @@
 #D2D9E6 quark:azalea_sign
 #E3666F factory:brass_machine
 #6A23D5 minecraft:cauldron
+#7FDE54 minecraft:clay
 #0A4357 factory:copper_machine
 #73CA69 create:creative_motor
 #5E5E58 create:deployer
 #BED665 minecraft:diorite
 #80497A minecraft:dirt
+#AA2AE8 factory:dust
 #060B35 minecraft:granite
 #88BAFA minecraft:gravel
 #1A0827 minecraft:hopper
@@ -26,3 +28,5 @@
 #3B1D89 minecraft:stripped_oak_log
 #1FF249 botanypots:terracotta_hopper_botany_pot
 #FB59FD minecraft:water_cauldron
+#B75CCB create:white_sail
+#79C917 create:windmill_bearing
