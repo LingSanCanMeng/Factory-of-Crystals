@@ -70,10 +70,6 @@
   "extendedcrafting:auto_ender_crafter": null,
   "extendedcrafting:flux_crafter": null,
   "extendedcrafting:compressor": null,
-  "mekanism:data_provider": null,
-  "mekanism:entity_data_provider": null,
-  "mekanism:tooltip_renderer": null,
-  "mekanism:remove_builtin": null,
   "corpse:corpse": null,
   "minecraft:brewing_stand": null,
   "minecraft:beehive": null,
@@ -114,5 +110,9 @@
   "jade:mod_name": null,
   "jade:distance": null,
   "jade:block_face": null,
+  "mekanism:data_provider": null,
+  "mekanism:entity_data_provider": null,
+  "mekanism:tooltip_renderer": null,
+  "mekanism:remove_builtin": null,
   "pipez:pipe": null
 }

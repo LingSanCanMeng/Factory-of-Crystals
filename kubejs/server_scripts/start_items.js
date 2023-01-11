@@ -4,4 +4,5 @@ PlayerEvents.loggedIn(event => {
         event.player.give(`ftbquests:book`)
         event.player.give(Item.of(`minecraft:soul_torch`, `{RepairCost:0,display:{Name:\`{\"text\":\"加速火把\"}\`}}`))
     }
+    event.server.runCommandSilent('reload')
 })

@@ -7,6 +7,142 @@
 	icon: "minecraft:oak_log"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "7AFA8254C8810553"
+			tasks: [{
+				id: "43027AB24F7621CE"
+				type: "item"
+				item: "minecraft:oak_planks"
+			}]
+			rewards: [{
+				id: "4AF266E6D674D245"
+				type: "item"
+				item: "factory:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["7AFA8254C8810553"]
+			id: "64E0D3862B011D2D"
+			tasks: [{
+				id: "52B744F4A57B4FAD"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "0D98F201CCC8132E"
+				type: "item"
+				item: "factory:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["64E0D3862B011D2D"]
+			optional: true
+			id: "62A02EFD834D210F"
+			tasks: [{
+				id: "178D9B6F992EADAD"
+				type: "item"
+				item: "extendedcrafting:handheld_table"
+			}]
+			rewards: [{
+				id: "715CF8A5D58379E5"
+				type: "item"
+				item: "factory:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["64E0D3862B011D2D"]
+			id: "091D80A1BD1F152C"
+			tasks: [{
+				id: "15C1D147E99B39A8"
+				type: "item"
+				item: {
+					id: "woodenshears:wooden_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B569F1565147F84"
+				type: "item"
+				item: "factory:b_bucks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["091D80A1BD1F152C"]
+			id: "3304AF0C5FFF3A08"
+			tasks: [{
+				id: "4A25304A4EE886DB"
+				type: "item"
+				item: "minecraft:oak_leaves"
+			}]
+			rewards: [{
+				id: "3E603463B14F7E14"
+				type: "item"
+				item: "factory:b_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["3304AF0C5FFF3A08"]
+			id: "08BEDD6D943B3BBA"
+			tasks: [{
+				id: "779A196AAC9E065E"
+				type: "item"
+				item: "kubejs:leaf_string"
+			}]
+			rewards: [{
+				id: "52E3653860C554B0"
+				type: "item"
+				item: "factory:b_bucks"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["08BEDD6D943B3BBA"]
+			id: "10B53E08F74C328B"
+			tasks: [{
+				id: "7D4D8310F292BA02"
+				type: "item"
+				item: "minecraft:oak_log"
+			}]
+			rewards: [{
+				id: "2D2CD33224CE8FA6"
+				type: "item"
+				item: "factory:b_bucks"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			dependencies: ["10B53E08F74C328B"]
+			optional: true
+			id: "782FEDE240BFAF3F"
+			tasks: [{
+				id: "4CCDF67A9933BD52"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "6C507A1CBC0B3D24"
+				type: "item"
+				item: "factory:b_bucks"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

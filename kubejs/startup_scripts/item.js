@@ -8,5 +8,9 @@ StartupEvents.registry(`item`, event => {
     event.create(`factory:diamond_hammer`, `pickaxe`).tier(`diamond`).displayName(`钻石质粉碎锤`).maxDamage(512).texture(`factory:item/hammers/diamond_hammer`)
     event.create(`factory:netherite_hammer`, `pickaxe`).tier(`netherite`).displayName(`下界合金质粉碎锤`).maxDamage(1024).texture(`factory:item/hammers/netherite_hammer`)
 
+    //leaf string
     event.create(`leaf_string`).displayName(`叶子绳`).texture(`minecraft:item/string`).color(0, 0x3E651F)
+
+    //b bucks
+    event.create('factory:b_bucks').displayName(`1元硬币`)
 })

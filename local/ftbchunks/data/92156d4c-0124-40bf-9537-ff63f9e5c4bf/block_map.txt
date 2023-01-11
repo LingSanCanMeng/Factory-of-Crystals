@@ -1,6 +1,11 @@
 #52B53D minecraft:air
 #A4683B create:andesite_casing
+#6A23D5 minecraft:cauldron
 #80497A minecraft:dirt
+#892D26 quark:nether_brick_chest
 #AD9EB5 minecraft:oak_leaves
 #BBA6D1 minecraft:oak_log
+#342BFA quark:prismarine_chest
+#8557EC quark:purpur_chest
 #DC3458 minecraft:stone
+#1FF249 botanypots:terracotta_hopper_botany_pot
