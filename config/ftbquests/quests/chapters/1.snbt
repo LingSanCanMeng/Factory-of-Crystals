@@ -153,6 +153,7 @@
 		{
 			x: 9.0d
 			y: -3.0d
+			description: ["副手拿着筛子，主手拿着要筛的东西，对着空气右键即可筛东西。"]
 			dependencies: [
 				"25269CC61B0C996F"
 				"10B53E08F74C328B"
@@ -165,6 +166,7 @@
 			}]
 		}
 		{
+			title: "筛泥土"
 			x: 0.0d
 			y: 3.0d
 			hide_dependency_lines: true
@@ -185,6 +187,87 @@
 					item: "minecraft:dirt"
 				}
 			]
+		}
+		{
+			title: "各种卵石"
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["47E38FBDA4934EE2"]
+			id: "17E07327E145F08D"
+			tasks: [
+				{
+					id: "6001FCC7EF650800"
+					type: "item"
+					item: "caveopolis:cobblestone_pebble"
+				}
+				{
+					id: "304D84E0E8845BD9"
+					type: "item"
+					item: "caveopolis:andesite_pebble"
+				}
+				{
+					id: "514524ECE0722A0D"
+					type: "item"
+					item: "caveopolis:granite_pebble"
+				}
+				{
+					id: "55ABF6B91312ACC3"
+					type: "item"
+					item: "caveopolis:diorite_pebble"
+				}
+			]
+		}
+		{
+			title: "各种石头"
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["17E07327E145F08D"]
+			id: "7774F980877C17E0"
+			tasks: [
+				{
+					id: "24098AD4BE032B79"
+					type: "item"
+					item: "minecraft:cobblestone"
+				}
+				{
+					id: "6D073CA26D2718FB"
+					type: "item"
+					item: "minecraft:andesite"
+				}
+				{
+					id: "140A268A921AEE05"
+					type: "item"
+					item: "minecraft:granite"
+				}
+				{
+					id: "285CDB10402DFC77"
+					type: "item"
+					item: "minecraft:diorite"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			description: ["使用粉碎锤锤石头、闪长岩、花岗岩、安山岩即可获得砂砾"]
+			dependencies: ["7774F980877C17E0"]
+			id: "05024DCED89FF1F2"
+			tasks: [{
+				id: "171A93AB8BBFCC15"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["7774F980877C17E0"]
+			id: "775B327C374E918A"
+			tasks: [{
+				id: "5DCB0637AC0E0DD0"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
 		}
 	]
 	quest_links: [ ]

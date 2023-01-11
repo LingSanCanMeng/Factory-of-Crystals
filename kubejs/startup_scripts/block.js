@@ -13,4 +13,6 @@ StartupEvents.registry(`block`, e => {
     machine('Andesite', "solid")
     machine('Brass', "translucent")
     machine('Copper', "cutout")
+
+    e.create('factory:sieve').displayName('筛子')
 })

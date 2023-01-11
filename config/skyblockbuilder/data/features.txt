@@ -12,12 +12,15 @@ minecraft:birch_bees_002
 minecraft:birch_bees_005
 minecraft:birch_tall
 caveopolis:black_colored_stone
+botania:black_mystical_flower_patch
 minecraft:blackstone_blobs
 caveopolis:blue_colored_stone
 minecraft:blue_ice
+botania:blue_mystical_flower_patch
 minecraft:bonus_chest
 caveopolis:bright_stone
 caveopolis:brown_colored_stone
+botania:brown_mystical_flower_patch
 minecraft:cave_vine
 minecraft:cave_vine_in_moss
 minecraft:chorus_plant
@@ -28,6 +31,7 @@ minecraft:crimson_forest_vegetation_bonemeal
 minecraft:crimson_fungus
 minecraft:crimson_fungus_planted
 caveopolis:cyan_colored_stone
+botania:cyan_mystical_flower_patch
 minecraft:dark_forest_vegetation
 minecraft:dark_oak
 quark:deferred_feature_fluid_springs
@@ -77,7 +81,9 @@ minecraft:glow_lichen
 quark:glow_shrooms
 minecraft:glowstone_extra
 caveopolis:gray_colored_stone
+botania:gray_mystical_flower_patch
 caveopolis:green_colored_stone
+botania:green_mystical_flower_patch
 minecraft:huge_brown_mushroom
 minecraft:huge_red_mushroom
 minecraft:ice_patch
@@ -92,10 +98,14 @@ minecraft:lake_lava
 minecraft:large_basalt_columns
 minecraft:large_dripstone
 caveopolis:light_blue_colored_stone
+botania:light_blue_mystical_flower_patch
 caveopolis:light_gray_colored_stone
+botania:light_gray_mystical_flower_patch
 caveopolis:lime_colored_stone
+botania:lime_mystical_flower_patch
 minecraft:lush_caves_clay
 caveopolis:magenta_colored_stone
+botania:magenta_mystical_flower_patch
 minecraft:mangrove
 minecraft:mangrove_vegetation
 minecraft:meadow_trees
@@ -110,6 +120,8 @@ minecraft:moss_patch_ceiling
 minecraft:moss_vegetation
 caveopolis:mossy_stone
 minecraft:mushroom_island_vegetation
+botania:mystical_flowers
+botania:mystical_mushrooms
 minecraft:nether_sprouts
 minecraft:nether_sprouts_bonemeal
 minecraft:oak
@@ -117,6 +129,7 @@ minecraft:oak_bees_0002
 minecraft:oak_bees_002
 minecraft:oak_bees_005
 caveopolis:orange_colored_stone
+botania:orange_mystical_flower_patch
 minecraft:ore_ancient_debris_large
 minecraft:ore_ancient_debris_small
 minecraft:ore_andesite
@@ -193,9 +206,12 @@ minecraft:pile_pumpkin
 minecraft:pile_snow
 minecraft:pine
 caveopolis:pink_colored_stone
+botania:pink_mystical_flower_patch
 minecraft:pointed_dripstone
 caveopolis:purple_colored_stone
+botania:purple_mystical_flower_patch
 caveopolis:red_colored_stone
+botania:red_mystical_flower_patch
 minecraft:rooted_azalea_tree
 mekanism:salt
 mekanism:salt_retrogen
@@ -248,5 +264,7 @@ minecraft:warped_fungus
 minecraft:warped_fungus_planted
 minecraft:weeping_vines
 caveopolis:white_colored_stone
+botania:white_mystical_flower_patch
 caveopolis:yellow_colored_stone
+botania:yellow_mystical_flower_patch
 create:zinc_ore

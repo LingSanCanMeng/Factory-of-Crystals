@@ -5,5 +5,7 @@
 
   "block.factory.andesite_machine": "安山机械装置",
   "block.factory.brass_machine": "黄铜机械装置",
-  "block.factory.copper_machine": "铜制机械装置"
+  "block.factory.copper_machine": "铜制机械装置",
+
+  "item.caveopolis.cobblestone_pebble": "圆石卵石"
 }

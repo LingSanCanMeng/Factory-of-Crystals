@@ -1,10 +1,9 @@
-BlockEvents.rightClicked(event => {
-    const {player, server, block, hand} = event
-    if (hand == `MAIN_HAND` && event.player.mainHandItem == `netherite_axe`) {
-        if (block.id === `minecraft:dirt`) {
-            server.runCommandSilent(`loot spawn ${player.x} ${player.y} ${player.z} loot factory:test`)
-            player.addItemCooldown(`minecraft:netherite_axe`, 20)
-            player.damageHeldItem()
+ItemEvents.rightClicked(e => {
+    const {player, server, hand, item} = e
+    if (hand == `MAIN_HAND` && player.offHandItem === 'cryptopolis:hand_sieve'){
+        if (player.mainHandItem === 'minecraft:dirt'){
+            server.runCommandSilent(`loot give ${player.name.string} loot factory:dirt`)
+            item.setCount(item.getCount() - 1)
         }
     }
 })
