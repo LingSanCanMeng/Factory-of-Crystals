@@ -1,5 +1,9 @@
 {
   "item.ceramicbucket.ceramic_bucket": "陶瓷桶",
   "item.ceramicbucket.ceramic_bucket.entity": "%s的陶瓷桶",
-  "item.ceramicbucket.ceramic_bucket.filled": "陶瓷%s桶"
+  "item.ceramicbucket.ceramic_bucket.filled": "陶瓷%s桶",
+
+  "block.factory.andesite_machine": "安山机械装置",
+  "block.factory.brass_machine": "黄铜机械装置",
+  "block.factory.copper_machine": "铜制机械装置"
 }
