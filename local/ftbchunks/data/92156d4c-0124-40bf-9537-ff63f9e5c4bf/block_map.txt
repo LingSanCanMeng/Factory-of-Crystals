@@ -3,6 +3,7 @@
 #A4683B create:andesite_casing
 #FE8FF3 factory:andesite_machine
 #D2D9E6 quark:azalea_sign
+#745C0D mekanism:basic_fluid_tank
 #E3666F factory:brass_machine
 #6A23D5 minecraft:cauldron
 #7FDE54 minecraft:clay
@@ -22,11 +23,13 @@
 #867680 minecraft:powered_rail
 #342BFA quark:prismarine_chest
 #8557EC quark:purpur_chest
+#FC6399 ftbquests:screen_1
 #00C3F4 factory:sieve
 #DC3458 minecraft:stone
 #487B9B factory:string_refining_sieve_block
 #3B1D89 minecraft:stripped_oak_log
 #1FF249 botanypots:terracotta_hopper_botany_pot
+#C10E6D mekanism:ultimate_mechanical_pipe
 #FB59FD minecraft:water_cauldron
 #B75CCB create:white_sail
 #79C917 create:windmill_bearing

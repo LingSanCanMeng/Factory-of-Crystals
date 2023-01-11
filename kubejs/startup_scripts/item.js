@@ -32,4 +32,5 @@ StartupEvents.registry(`item`, e => {
     e.create('create:andesite_alloy_plate').displayName('安山合金板')
     e.create('create:andesite_alloy_nugget').displayName('安山合金粒')
     e.create('create:andesite_alloy_gear').displayName('安山合金齿轮')
+    e.create('create:unprocessed_andesite_alloy_gear').displayName('安山合金齿轮（半成品）')
 })

@@ -279,7 +279,7 @@
 			x: 6.0d
 			y: 3.0d
 			shape: "gear"
-			description: ["解锁安山时代"]
+			description: ["解锁“安山时代”"]
 			dependencies: ["05024DCED89FF1F2"]
 			id: "30C15B43E642F8C0"
 			tasks: [{
@@ -335,6 +335,18 @@
 				id: "334E4B2F193C42C1"
 				type: "item"
 				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.0d
+			description: ["更便宜的植物盆"]
+			dependencies: ["71841F82A6D5AA39"]
+			id: "216F8648AF6A203F"
+			tasks: [{
+				id: "66CB4FE3FB73856D"
+				type: "item"
+				item: "botanypots:terracotta_hopper_botany_pot"
 			}]
 		}
 	]

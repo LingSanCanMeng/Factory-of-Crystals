@@ -1,0 +1,79 @@
+{
+	id: "39CA18FB2A779B61"
+	group: ""
+	order_index: 4
+	filename: "2"
+	title: "2.5、各式各样的安山装置"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "安山装置起源"
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["5EB317D0B60E7A90"]
+			id: "199CFD5839ADE218"
+			tasks: [{
+				id: "48938FC84EA3CE75"
+				type: "item"
+				item: "factory:andesite_machine"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["199CFD5839ADE218"]
+			id: "4E7E26B45799BA35"
+			tasks: [{
+				id: "61519123A6802949"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["4E7E26B45799BA35"]
+			id: "0EF0657D97926FD3"
+			tasks: [{
+				id: "701CDD817C0D78D2"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["199CFD5839ADE218"]
+			id: "6CC45E4B0F8ACD60"
+			tasks: [{
+				id: "36871D339F1B4738"
+				type: "item"
+				item: "create:whisk"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["6CC45E4B0F8ACD60"]
+			id: "0DE96359A4B42477"
+			tasks: [{
+				id: "56A3318BE200F535"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["199CFD5839ADE218"]
+			id: "1C6A004F97F0976F"
+			tasks: [{
+				id: "401FD7FDFC7120C7"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

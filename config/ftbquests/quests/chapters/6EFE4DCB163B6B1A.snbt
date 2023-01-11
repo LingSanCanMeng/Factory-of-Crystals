@@ -97,6 +97,82 @@
 				}
 			]
 		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["387A4963B40DA6A0"]
+			id: "282ED26954A19D7D"
+			tasks: [{
+				id: "7C9D6055F618049F"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["1DC355F31630645E"]
+			id: "50ED0716133145E9"
+			tasks: [{
+				id: "05B8A134EA9E1B53"
+				type: "item"
+				item: "create:andesite_alloy_gear"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			shape: "gear"
+			description: ["解锁“各式各样的安山装置”"]
+			dependencies: [
+				"50ED0716133145E9"
+				"3427B2CCF61820BC"
+			]
+			id: "5EB317D0B60E7A90"
+			tasks: [{
+				id: "6429C2E95361718A"
+				type: "item"
+				item: "factory:andesite_machine"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "6DEA05AC0B2589EB"
+			tasks: [{
+				id: "645B83273795B7EC"
+				type: "checkmark"
+				title: "本条任务线讲的是有了烈焰蛋糕以后可以进行的简单自动化方法"
+			}]
+			rewards: [{
+				id: "610D839D71AD8877"
+				type: "item"
+				item: "ftbquests:screen_1"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["6DEA05AC0B2589EB"]
+			id: "5AF01A54B63072D0"
+			tasks: [{
+				id: "326914CEFFBE820B"
+				type: "fluid"
+				fluid: "factory:flowing_molten_andesite_alloy"
+				amount: 144L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["5AF01A54B63072D0"]
+			id: "0401F95297CC5A28"
+			tasks: [{
+				id: "4C9C2EFC0FDC2687"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
