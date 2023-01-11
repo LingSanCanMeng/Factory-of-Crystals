@@ -85,4 +85,14 @@ ServerEvents.recipes(e => {
     ], {
         a: `oak_log`
     })
+
+    //dirt
+    e.recipes.minecraft.crafting_shaped(`dirt`, [
+        `aaa`,
+        `aba`,
+        `aaa`
+    ], {
+        a: `#minecraft:leaves`,
+        b: `bone_meal`
+    })
 })

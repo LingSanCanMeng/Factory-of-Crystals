@@ -40,7 +40,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 3.0d
 			y: -1.5d
 			dependencies: ["64E0D3862B011D2D"]
 			optional: true
@@ -127,7 +127,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 9.0d
 			y: -1.5d
 			dependencies: ["10B53E08F74C328B"]
 			optional: true
@@ -182,6 +182,17 @@
 				id: "76820169A0F7461F"
 				type: "item"
 				item: "minecraft:dirt"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			dependencies: ["08BEDD6D943B3BBA"]
+			id: "25269CC61B0C996F"
+			tasks: [{
+				id: "44E47E68657360F1"
+				type: "item"
+				item: "cryptopolis:mesh"
 			}]
 		}
 	]
