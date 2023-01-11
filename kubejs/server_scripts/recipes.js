@@ -105,14 +105,98 @@ ServerEvents.recipes(e => {
         a: `#forge:string`
     })
 
-    //hand sieve
-    e.recipes.minecraft.crafting_shaped(`cryptopolis:hand_sieve`, [
-        `a a`,
-        `aba`,
-        `ccc`
+    //string_refining_sieve
+    e.custom({
+        type: 'lychee:block_interacting',
+        item_in: {
+            item: 'cryptopolis:mesh'
+        },
+        block_in: 'oak_log',
+        post: [
+            {
+                type: 'place',
+                block: 'stripped_oak_log'
+            },
+            {
+                type: 'drop_item',
+                item: 'factory:string_refining_sieve'
+            }
+        ]
+    })
+
+    //refining_sieve
+    e.recipes.minecraft.crafting_shapeless('factory:iron_refining_sieve', ['factory:string_refining_sieve', '#forge:ingots/iron'])
+    e.recipes.minecraft.crafting_shapeless('factory:gold_refining_sieve', ['factory:iron_refining_sieve', '#forge:ingots/gold'])
+    e.recipes.minecraft.crafting_shapeless('factory:diamond_refining_sieve', ['factory:gold_refining_sieve', 'diamond'])
+    e.recipes.minecraft.crafting_shapeless('factory:blaze_refining_sieve', ['factory:diamond_refining_sieve', 'create:blaze_brass'])
+
+    //refining_sieve_block
+    e.recipes.minecraft.crafting_shaped('factory:string_refining_sieve_block', [
+        ' a ',
+        'aaa',
+        'aa '
     ], {
-        a: `stick`,
-        b: `cryptopolis:mesh`,
-        c: `#minecraft:logs`
+        a: 'factory:string_refining_sieve'
+    })
+    e.recipes.minecraft.crafting_shaped('factory:iron_refining_sieve_block', [
+        ' a ',
+        'aaa',
+        'aa '
+    ], {
+        a: 'factory:iron_refining_sieve'
+    })
+    e.recipes.minecraft.crafting_shaped('factory:gold_refining_sieve_block', [
+        ' a ',
+        'aaa',
+        'aa '
+    ], {
+        a: 'factory:gold_refining_sieve'
+    })
+    e.recipes.minecraft.crafting_shaped('factory:diamond_refining_sieve_block', [
+        ' a ',
+        'aaa',
+        'aa '
+    ], {
+        a: 'factory:diamond_refining_sieve'
+    })
+    e.recipes.minecraft.crafting_shaped('factory:blaze_refining_sieve_block', [
+        ' a ',
+        'aaa',
+        'aa '
+    ], {
+        a: 'factory:blaze_refining_sieve'
+    })
+
+    //cauldron
+    e.custom({
+        type: 'lychee:block_interacting',
+        item_in: {
+            tag: 'minecraft:saplings'
+        },
+        block_in: 'minecraft:cauldron',
+        post: [
+            {
+                type: 'place',
+                block: {
+                    blocks: ['minecraft:water_cauldron'],
+                    state: {
+                        level: '3'
+                    }
+                }
+            }
+        ]
+    })
+    e.custom({
+        type: 'lychee:block_interacting',
+        item_in: {
+            tag: 'forge:stone'
+        },
+        block_in: 'minecraft:cauldron',
+        post: [
+            {
+                type: 'place',
+                block: 'minecraft:lava_cauldron'
+            }
+        ]
     })
 })

@@ -144,25 +144,31 @@
 			y: -1.5d
 			dependencies: ["08BEDD6D943B3BBA"]
 			id: "25269CC61B0C996F"
-			tasks: [{
-				id: "44E47E68657360F1"
-				type: "item"
-				item: "cryptopolis:mesh"
-			}]
+			tasks: [
+				{
+					id: "44E47E68657360F1"
+					type: "item"
+					item: "cryptopolis:mesh"
+				}
+				{
+					id: "611F0E474ED5841B"
+					type: "item"
+					item: "factory:string_refining_sieve"
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: -3.0d
-			description: ["副手拿着筛子，主手拿着要筛的东西，对着空气右键即可筛东西。"]
 			dependencies: [
 				"25269CC61B0C996F"
 				"10B53E08F74C328B"
 			]
 			id: "1CA6FA62FDA5C669"
 			tasks: [{
-				id: "4883417ABEFD8C63"
+				id: "558C3DC608BE85D6"
 				type: "item"
-				item: "cryptopolis:hand_sieve"
+				item: "factory:string_refining_sieve_block"
 			}]
 		}
 		{
@@ -177,14 +183,14 @@
 			id: "47E38FBDA4934EE2"
 			tasks: [
 				{
-					id: "521C3F667B526F6A"
-					type: "item"
-					item: "cryptopolis:hand_sieve"
-				}
-				{
 					id: "4829A7CFBB5DF183"
 					type: "item"
 					item: "minecraft:dirt"
+				}
+				{
+					id: "3F3B4A775464FA59"
+					type: "item"
+					item: "factory:string_refining_sieve_block"
 				}
 			]
 		}
@@ -267,6 +273,56 @@
 				id: "5DCB0637AC0E0DD0"
 				type: "item"
 				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			shape: "gear"
+			description: ["解锁安山时代"]
+			dependencies: ["05024DCED89FF1F2"]
+			id: "30C15B43E642F8C0"
+			tasks: [{
+				id: "3359602700017FFA"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			description: [
+				"树苗放进炼药锅获得水"
+				"石头等放进炼药锅获得熔岩"
+			]
+			dependencies: ["30C15B43E642F8C0"]
+			id: "7A087443B9E697B9"
+			tasks: [{
+				id: "6FE6D411E579D117"
+				type: "item"
+				item: "minecraft:cauldron"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			dependencies: ["7A087443B9E697B9"]
+			id: "49E7959D91EC1869"
+			tasks: [{
+				id: "315DDE85E2C29E7A"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			dependencies: ["7A087443B9E697B9"]
+			id: "6D7E1376EA7E3C85"
+			tasks: [{
+				id: "05E551338985C9AE"
+				type: "item"
+				item: "minecraft:lava_bucket"
 			}]
 		}
 	]

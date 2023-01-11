@@ -14,7 +14,15 @@ StartupEvents.registry(`item`, e => {
     //b bucks
     e.create('factory:b_bucks').displayName(`1元硬币`)
 
-    //handheld sieve && mesh
-    e.create('cryptopolis:hand_sieve').displayName('手持筛子')
+    //mesh
     e.create('cryptopolis:mesh').displayName('筛网')
+    e.create(`factory:string_refining_sieve`).displayName('线细化筛网').texture('minecraft:block/white_wool')
+    e.create(`factory:iron_refining_sieve`).displayName('铁细化筛网').texture('minecraft:block/gray_wool')
+    e.create(`factory:gold_refining_sieve`).displayName('金细化筛网').texture('minecraft:block/yellow_wool')
+    e.create(`factory:diamond_refining_sieve`).displayName('钻石细化筛网').texture('minecraft:block/light_blue_wool')
+    e.create(`factory:blaze_refining_sieve`).displayName('烈焰细化筛网').texture('minecraft:block/orange_wool')
+
+    //blaze_brass && chorus_chrome
+    e.create('create:blaze_brass').displayName('烈焰合金')
+    e.create('create:chorus_chrome').displayName('紫颂合金')
 })

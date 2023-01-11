@@ -14,5 +14,9 @@ StartupEvents.registry(`block`, e => {
     machine('Brass', "translucent")
     machine('Copper', "cutout")
 
-    e.create('factory:sieve').displayName('筛子')
+    e.create(`factory:string_refining_sieve_block`).displayName('线细化筛网块')
+    e.create(`factory:iron_refining_sieve_block`).displayName('铁细化筛网块')
+    e.create(`factory:gold_refining_sieve_block`).displayName('金细化筛网块')
+    e.create(`factory:diamond_refining_sieve_block`).displayName('钻石细化筛网块')
+    e.create(`factory:blaze_refining_sieve_block`).displayName('烈焰细化筛网块')
 })
