@@ -17,11 +17,6 @@
 				type: "item"
 				item: "minecraft:oak_planks"
 			}]
-			rewards: [{
-				id: "4AF266E6D674D245"
-				type: "item"
-				item: "factory:b_bucks"
-			}]
 		}
 		{
 			x: 1.5d
@@ -32,11 +27,6 @@
 				id: "52B744F4A57B4FAD"
 				type: "item"
 				item: "minecraft:crafting_table"
-			}]
-			rewards: [{
-				id: "0D98F201CCC8132E"
-				type: "item"
-				item: "factory:b_bucks"
 			}]
 		}
 		{
@@ -49,11 +39,6 @@
 				id: "178D9B6F992EADAD"
 				type: "item"
 				item: "extendedcrafting:handheld_table"
-			}]
-			rewards: [{
-				id: "715CF8A5D58379E5"
-				type: "item"
-				item: "factory:b_bucks"
 			}]
 		}
 		{
@@ -72,11 +57,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "6B569F1565147F84"
-				type: "item"
-				item: "factory:b_bucks"
-			}]
 		}
 		{
 			x: 4.5d
@@ -87,11 +67,6 @@
 				id: "4A25304A4EE886DB"
 				type: "item"
 				item: "minecraft:oak_leaves"
-			}]
-			rewards: [{
-				id: "3E603463B14F7E14"
-				type: "item"
-				item: "factory:b_bucks"
 			}]
 		}
 		{
@@ -104,11 +79,6 @@
 				type: "item"
 				item: "kubejs:leaf_string"
 			}]
-			rewards: [{
-				id: "52E3653860C554B0"
-				type: "item"
-				item: "factory:b_bucks"
-			}]
 		}
 		{
 			x: 7.5d
@@ -119,11 +89,6 @@
 				id: "7D4D8310F292BA02"
 				type: "item"
 				item: "minecraft:oak_log"
-			}]
-			rewards: [{
-				id: "2D2CD33224CE8FA6"
-				type: "item"
-				item: "factory:b_bucks"
 			}]
 		}
 		{
@@ -137,11 +102,6 @@
 				type: "item"
 				item: "minecraft:chest"
 			}]
-			rewards: [{
-				id: "6C507A1CBC0B3D24"
-				type: "item"
-				item: "factory:b_bucks"
-			}]
 		}
 		{
 			x: 3.0d
@@ -152,11 +112,6 @@
 				id: "69ED5F24A749020B"
 				type: "item"
 				item: "minecraft:composter"
-			}]
-			rewards: [{
-				id: "57F834870EDBDE1C"
-				type: "item"
-				item: "factory:b_bucks"
 			}]
 		}
 		{

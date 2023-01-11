@@ -95,4 +95,13 @@ ServerEvents.recipes(e => {
         a: `#minecraft:leaves`,
         b: `bone_meal`
     })
+
+    //mesh
+    e.recipes.minecraft.crafting_shaped(`cryptopolis:mesh`, [
+        `aaa`,
+        `aaa`,
+        `aaa`
+    ], {
+        a: `#forge:string`
+    })
 })
