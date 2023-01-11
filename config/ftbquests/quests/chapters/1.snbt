@@ -150,6 +150,42 @@
 				item: "cryptopolis:mesh"
 			}]
 		}
+		{
+			x: 9.0d
+			y: -3.0d
+			dependencies: [
+				"25269CC61B0C996F"
+				"10B53E08F74C328B"
+			]
+			id: "1CA6FA62FDA5C669"
+			tasks: [{
+				id: "4883417ABEFD8C63"
+				type: "item"
+				item: "cryptopolis:hand_sieve"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1CA6FA62FDA5C669"
+				"023DFD94935132DA"
+			]
+			id: "47E38FBDA4934EE2"
+			tasks: [
+				{
+					id: "521C3F667B526F6A"
+					type: "item"
+					item: "cryptopolis:hand_sieve"
+				}
+				{
+					id: "4829A7CFBB5DF183"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

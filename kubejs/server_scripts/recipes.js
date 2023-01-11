@@ -104,4 +104,15 @@ ServerEvents.recipes(e => {
     ], {
         a: `#forge:string`
     })
+
+    //hand sieve
+    e.recipes.minecraft.crafting_shaped(`cryptopolis:hand_sieve`, [
+        `a a`,
+        `aba`,
+        `ccc`
+    ], {
+        a: `stick`,
+        b: `cryptopolis:mesh`,
+        c: `#minecraft:logs`
+    })
 })
