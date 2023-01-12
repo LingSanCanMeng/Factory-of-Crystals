@@ -4,6 +4,7 @@
 	order_index: 4
 	filename: "2"
 	title: "2.5、各式各样的安山装置"
+	icon: "factory:andesite_machine"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

@@ -349,6 +349,51 @@
 				item: "botanypots:terracotta_hopper_botany_pot"
 			}]
 		}
+		{
+			title: "256x圆石"
+			x: 4.5d
+			y: 6.0d
+			description: ["种圆石"]
+			dependencies: ["7774F980877C17E0"]
+			id: "05401977BC13C23D"
+			tasks: [
+				{
+					id: "33E03794099DF719"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64L
+				}
+				{
+					id: "6FC5EAE89888CF10"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64L
+				}
+				{
+					id: "04BA64AE9F87316C"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64L
+				}
+				{
+					id: "6A328B819A15BBE9"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "4EA01B8F0B358611"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:cobblestone"
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

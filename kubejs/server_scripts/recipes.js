@@ -378,4 +378,38 @@ ServerEvents.recipes(event => {
             Item.of('create:andesite_alloy').toJson()
         ]
     })
+
+    //soil
+    event.custom({
+        type: 'botanypots:soil',
+        input: Item.of('stone').toJson(),
+        display: {
+            block: 'stone'
+        },
+        categories: ['sp'],
+        growthModifier: 1
+    })
+
+    //cobblestone botany
+    event.custom({
+        type: 'botanypots:crop',
+        seed: {
+            type: "forge:nbt",
+            item: "extendedcrafting:singularity",
+            nbt: {
+                Id: "extendedcrafting:cobblestone"
+            }
+        },
+        categories: ['sp'],
+        growthTicks: 100,
+        display: {
+            block: 'minecraft:cobblestone'
+        },
+        drops: [
+            {
+                chance: 1,
+                output: Item.of('cobblestone').toJson()
+            }
+        ]
+    })
 })

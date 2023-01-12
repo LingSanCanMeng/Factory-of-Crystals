@@ -1,0 +1,11 @@
+{
+  "name": "圆石",
+  "colors": [
+    "515151",
+    "F8F8FF"
+  ],
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  },
+  "materialCount": 256
+}

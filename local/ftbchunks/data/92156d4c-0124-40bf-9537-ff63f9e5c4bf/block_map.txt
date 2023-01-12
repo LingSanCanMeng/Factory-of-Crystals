@@ -10,9 +10,11 @@
 #0A4357 factory:copper_machine
 #73CA69 create:creative_motor
 #5E5E58 create:deployer
+#FF48B8 create:depot
 #BED665 minecraft:diorite
 #80497A minecraft:dirt
 #AA2AE8 factory:dust
+#2F436F minecraft:glass
 #060B35 minecraft:granite
 #88BAFA minecraft:gravel
 #1A0827 minecraft:hopper

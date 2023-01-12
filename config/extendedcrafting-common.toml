@@ -5,16 +5,16 @@
 	ultimateSingularityRecipe = true
 	#The default amount of items required to create a Singularity.
 	#Range: > 1
-	defaultMaterialsRequired = 10000
+	defaultMaterialsRequired = 256
 	#Should default recipes be generated for Singularities?
 	defaultRecipes = true
 	#The default amount of FE required to create a Singularity.
 	#Range: > 0
-	defaultPowerRequired = 5000000
+	defaultPowerRequired = 4000
 	#Should the Singularities be enabled?
 	enabled = true
 	#The item to use as the Catalyst in default Singularity recipes.
-	defaultCatalyst = "extendedcrafting:ultimate_catalyst"
+	defaultCatalyst = "create:andesite_casing"
 
 #Settings for the Crafting Core.
 ["Combination Crafting"]
